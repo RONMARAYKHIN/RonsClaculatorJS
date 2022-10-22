@@ -1,0 +1,38 @@
+body{
+    margin:0;
+    padding: 5%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:32px;
+    line-height: 1.5em;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cal{
+    width:322px;
+    margin:2% auto;
+    border-radius:8px;
+    box-sizing: border-box;
+    border:1px solid #606C38;
+}
+
+.buttons{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+button{
+    width:80px;
+    height:80px;
+    background-color: yellow;
+    color:var(--kombu-green);
+    text-align:center;
+    border:1px solid blue;
+    box-sizing: border-box;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:32px;
+}
